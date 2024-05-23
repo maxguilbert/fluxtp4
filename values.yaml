@@ -1,0 +1,22 @@
+nextcloud:
+  host: nextcloud.local
+  username: admin
+  password: adminpassword
+
+redis:
+  enabled: true
+  master:
+    persistence:
+      enabled: false
+  replica:
+    persistence:
+      enabled: false
+
+postgresql:
+  enabled: false
+
+externalDatabase:
+  enabled: false
+
+persistence:
+  enabled: false
