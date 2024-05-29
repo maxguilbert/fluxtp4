@@ -6,4 +6,4 @@ metadata:
 spec:
   interval: 1h0m0s
   type: oci  # Ajoutez cette ligne pour spécifier le type de dépôt
-  url: oci://ghcr.io/weaveworks/chart
+  url: oci://ghcr.io/weaveworks/charts
