@@ -1,8 +1,9 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta1
+apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: weave-gitops
   namespace: nextcloud
 spec:
   interval: 1h0m0s
-  url: oci://ghcr.io/weaveworks/charts
+  type: oci  # Ajoutez cette ligne pour spécifier le type de dépôt
+  url: oci://ghcr.io/weaveworks/chart
